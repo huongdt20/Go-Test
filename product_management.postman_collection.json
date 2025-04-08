@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "137663cf-d56e-4288-9cc3-e5e5f73d4fea",
+		"name": "Product management",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "13977231"
+	},
+	"item": [
+		{
+			"name": "Create product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8088/products"
+			},
+			"response": []
+		}
+	]
+}
